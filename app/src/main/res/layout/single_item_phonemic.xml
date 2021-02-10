@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:layout_margin="0dp">
+<!--
+<TextView
+        android:id="@+id/tvPhonemicId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Phonemic Id" />
+-->
+    <TextView
+        android:id="@+id/tvPhonemic"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:text="Phonemic" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPhonetics"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_semantic_target">
+
+
+    <!--
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="japiim.dicionario.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+
+-->
+
+    <fragment
+        android:id="@+id/navigation_semantic_source"
+        android:name="japiim.dicionario.ui.semantic_source.SemanticSourceFragment"
+        tools:layout="@layout/fragment_semantic_source" />
+    <fragment
+        android:id="@+id/navigation_semantic_target"
+        android:name="japiim.dicionario.ui.semantic_target.SemanticTargetFragment"
+        tools:layout="@layout/fragment_semantic_target" />
+
+    <fragment
+        android:id="@+id/navigation_alphabetic_source"
+        android:name="japiim.dicionario.ui.alphabetic_source.AlphabeticSourceFragment"
+        tools:layout="@layout/fragment_alphabetic_source" />
+
+    <fragment
+        android:id="@+id/navigation_alphabetic_target"
+        android:name="japiim.dicionario.ui.alphabetic_target.AlphabeticTargetFragment"
+        tools:layout="@layout/fragment_alphabetic_target" />
+
+
+    <fragment
+        android:id="@+id/navigation_source_lang"
+        android:name="japiim.dicionario.ui.source_lang.SourceLangFragment"
+        tools:layout="@layout/fragment_source_lang" />
+<!--
+    <fragment
+        android:id="@+id/navigation_target_lang"
+        android:name="japiim.dicionario.ui.target_lang.TargetLangFragment"
+        tools:layout="@layout/fragment_target_lang" />
+
+-->
+</navigation>

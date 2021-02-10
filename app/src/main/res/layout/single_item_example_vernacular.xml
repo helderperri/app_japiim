@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:layout_margin="0dp">
+    <!--
+    <TextView
+        android:id="@+id/tvExampleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Example Id" />
+    -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvExampleVernacular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:maxWidth="400dp"
+            android:padding="0dp"
+            android:text="Example Vernacular"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExampleProns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:layout_margin="0dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExamplePhonetics"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+
+        />
+
+</LinearLayout>

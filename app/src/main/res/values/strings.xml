@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dicionario Japiim</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_source_lang">Guató</string>
+    <string name="title_target_lang">Português</string>
+    <string name="title_alphabetic">Alfabética</string>
+    <string name="title_alphabetic_source">Alfa - Guató</string>
+    <string name="title_alphabetic_target">Alfa - Port</string>
+    <string name="title_alphabetic2_source">Alfa2 - Guató</string>
+    <string name="title_alphabetic2_target">Alfa2 - Port</string>
+    <string name="title_semantic_source">Sem - Guató</string>
+    <string name="title_semantic_target">Sem - Port</string>
+
+</resources>
